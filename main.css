@@ -1,0 +1,65 @@
+#home_p, #home_p_h2, #home_div, #home_div2 {
+    display: block;
+    background-color: lightgray;
+    color: black;
+}
+
+#home_div, #home_div2 {
+    width: fit-content;
+    padding: 10px;
+}
+
+#home_p_h2 {
+    display: block;
+    width: 500px;
+    text-align: center;
+}
+
+#home_h1, #home_h2 {
+    background-color: red;
+    border-color: rgb(255, 77, 77);
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+}
+
+#home_h2 {
+    display: block;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    font-display: none;
+    text-align: center;
+    color: white;
+    height: auto;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+    background-color: red;
+}
+
+li a {
+    display: block;
+    width: 50px;
+}
+
+li a:visited
+{
+   color: white;
+   text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
